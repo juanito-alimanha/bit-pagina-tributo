@@ -1,0 +1,224 @@
+*{box-sizing: border-box;
+margin: 0;
+}
+body{
+    background-color: grey;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+header {
+    background-color: black;
+    width: 100%;
+    height: 120px;
+
+}    
+.nombre{
+    float: right;
+    margin-right: 580px;
+    margin-top:30px;
+    color: rgb(67, 121, 121);
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*NAV*/
+ul {
+    display: flex;
+    align-items: center;
+
+  }
+li {
+font-size: 24px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, sans-serif;
+cursor: pointer;
+margin-top: 20px;
+margin-left: 300px;
+letter-spacing: 1px;
+transition: 0.2s ease-in-out;
+list-style: none;
+float: right;
+display: flex;
+cursor: pointer;
+color: rgb(32, 61, 73);
+font-optical-sizing: auto;
+font-weight: weight;
+}
+li:hover { 
+    color: black;
+  }
+  /*Portada*/
+
+.titulo-presentacion {
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  padding-left: 190px;
+}
+
+.titulo-presentacion1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  padding-left: 140px;
+}
+
+.imagen-presentacion {
+  width: 650px;
+  height: 500px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+
+.desc-foto {
+  font-size: 20px;
+  margin-left: 245px;
+  margin-top: px;
+  color: #333333ac;
+}
+
+.subtitulo-presentacion {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 700px;
+  margin-top: -450px;
+}
+
+.frase-presentacion {
+  font-size: 25px;
+  margin-left: 780px;
+  margin-top: 15px;
+  color: black;
+}
+
+.hr-portada {
+  border: 2px solid rgba(0, 0, 0, 0.176);
+  margin-top: 380px;
+  margin-left: 33px;
+  width: 95%;
+}
+/*Biografia*/
+
+.titulo-biografia {
+  font-size: 35px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.texto-biografia {
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 50px;
+  color: black;
+}
+.imagen-biografia {
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
+  margin-top: -250px;
+  float: right;
+  border-radius: 5%;
+}
+.hr-biografia {
+  border: 2px solid rgba(0, 0, 0, 0.176);
+  margin-top: 180px;
+  margin-left: 33px;
+  width: 95%;
+}
+
+/*Logros*/
+/*logro 1*/
+
+.titulo-Logros{
+  font-size: 35px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.titulo-php {
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 50px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.descripcion-php {
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 28px;
+  color: black;
+  text-align: justify;
+}
+
+.imagen-php {
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
+  margin-top: -250px;
+  float: right;
+  border-radius: 5%;
+}
+
+/*logro 2*/
+
+.titulo-php2 {
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 30px;
+  letter-spacing: 1px;
+  color: #333;
+}
+.descripcion-php2 {
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 28px;
+  color: black;
+}
+.hr-Logros {
+  border: 2px solid rgba(0, 0, 0, 0.176);
+  margin-top: 30px;
+  margin-left: 33px;
+  width: 95%;
+}
+/*Datos curiosos*/
+
+.titulo-datos-curiosos {
+  font-size: 35px;
+  margin-left: 30px;
+  margin-top: 50px;
+  color: #333;
+}
+
+.descripcion-datos-curiosos {
+  font-size: 24px;
+  margin-top: 70px;
+  margin-left: -200px;
+  color: black;
+}
+/*Footer*/
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  margin-top: 60px;
+  margin-bottom: auto;
+}
+.logo-footer {
+  width: 240px;
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.texto-footer {
+  color: white;
+  font-size: 18px;
+  margin-top: -70px;
+  margin-left: 620px;
+}
+.texto-footer2 {
+  color: white;
+  font-size: 18px;
+  margin-left: 620px;
+}
